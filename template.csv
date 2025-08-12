@@ -1,0 +1,16 @@
+# 带误差线柱状图数据输入模板
+"# 误差线类型: SE(标准误差), SD(标准差), CI95(95%置信区间), CI99(99%置信区间), 2SE(2倍标准误差), ASYMMETRIC(非对称误差线)"
+# 非对称误差线格式: Error_Bar_Upper/Error_Bar_Lower (例如: 1.5/0.8)
+# 请在Error_Type行中明确标注误差线类型
+""
+Baseline,Indicator1,Indicator2,Indicator3,Indicator4,Indicator5,Indicator6
+Mean,,,,,,
+Error_Bar,,,,,,
+Error_Type,,,,,,
+Sample_Size,,,,,,
+,,,,,,
+Intervention,Indicator1,Indicator2,Indicator3,Indicator4,Indicator5,Indicator6
+Mean,,,,,,
+Error_Bar,,,,,,
+Error_Type,,,,,,
+Sample_Size,,,,,,

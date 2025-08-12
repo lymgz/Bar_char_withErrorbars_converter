@@ -1,0 +1,15 @@
+# 带误差线柱状图数据输入示例
+# 误差线类型: SE(标准误差), SD(标准差), CI95(95%置信区间), CI99(99%置信区间), 2SE(2倍标准误差)
+# 这是一个外骨骼EMG研究的示例数据
+,
+Baseline,EMG_Biceps,EMG_Triceps,EMG_Deltoid,Force_Max,Comfort_Score
+Mean,0.45,0.32,0.67,125.3,6.2
+Error_Bar,0.08,0.05,0.12,15.2,0.8
+Error_Type,SE,SE,SD,CI95,SE
+Sample_Size,30,30,30,30,30
+,
+Intervention,EMG_Biceps,EMG_Triceps,EMG_Deltoid,Force_Max,Comfort_Score
+Mean,0.38,0.28,0.59,142.7,7.8
+Error_Bar,0.06,0.04,0.10,12.8,0.6
+Error_Type,SE,SE,SD,CI95,SE
+Sample_Size,30,30,30,30,30
